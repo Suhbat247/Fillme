@@ -1,20 +1,37 @@
 #headerinput{
-    width: 320px;
+    margin-top: 16px;
+    width: 340px;
+    height: 40px;
     border-radius: 12px;
-    box-shadow: 0px 0px 5px #d8ffff91;
+    box-shadow: 0px 0px 5px #9ECCFA;
 }
 #baruunCol{
-    width: 364px;
+    width: 384px;
 }
 #loginButtonTop{
+  
   background-color: #0E80F1;
   border-radius: 50px;
   border: 1px solid #0E80F1;
   color: white;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.043);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.093);
 }
 #loginButtonBott{
     border-radius: 50px;
     background-color: rgba(0, 255, 255, 0);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.043);
+    box-shadow: rgba(255, 255, 255, 0);
   }
+.ehniiCol{
+  background-color: #D8FFFF;
+}
+.hyorCol{
+  background-color: #F2FFFF;
+}
+.mainRow{
+  height: 100vh;
+  overflow: hidden;
+}
+.garchig{
+  color: #0E80F1;
+  margin-top: 240px;
+}
