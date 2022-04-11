@@ -1,6 +1,13 @@
 import styles from "../styles/Header.module.css"
+import { useRouter } from "next/dist/client/router";
 
 const Login = () => {
+  const router = useRouter();
+  const isActive = (r) =>
+  {
+      if(r===router.pathname) return " active"
+      else return "";
+  }
     return ( 
 <nav id={styles.navbar} className="navbar navbar-expand-lg navbar-light ">
   <div className="container-fluid px-5 py-2 mx-5 ">
@@ -11,25 +18,21 @@ const Login = () => {
     <div className="collapsecollapse" id="navbarSupportedContent">
       <ul id={styles.ulul} className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Бидний тухай</a>
+          <a className={"nav-link" + isActive('/about')} aria-current="page" href="about">Бидний тухай</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Судалгаанууд</a>
+          <a className={"nav-link" + isActive('/survays')}  href="survays">Судалгаанууд</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Урамшуулал</a>
+          <a className={"nav-link" + isActive('gift')} href="gift">Урамшуулал</a>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Нэвтрэх 
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-           
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li className="nav-item">
+          <a className={"nav-link" + isActive('login')} href="login">Нэвтрэх</a>
         </li>
+        
+        
+  
+    
       </ul>
     </div>
   </div>
