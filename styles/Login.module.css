@@ -19,9 +19,8 @@
 #loginButtonBott{
     border-radius: 50px;
     background-color: rgba(0, 255, 255, 0);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.298);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
   }
-
 .ehniiCol{
   background-color: #D8FFFF;
 }
@@ -29,7 +28,7 @@
   background-color: #F2FFFF;
 }
 .mainRow{
-  height: 100vh;
+  height: 99vh;
   overflow: hidden;
 }
 .garchig{
