@@ -1,0 +1,44 @@
+.mainRowRegister{
+/* width: 1000px; */
+}
+.registerGarchig{
+    margin-top: 180px;
+    color: #0E80F1;
+}
+.progress{
+    margin-top: 52px;
+    display: flex;
+    justify-content:center;
+    min-width: 520px;
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 42px;
+}
+.bullet{
+    border: 1px solid #0EF1F1;
+    background-color: #0EF1F1;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.step p{
+    font-size: 12px;
+}
+.step:last-child .bullet::before,
+.step:last-child .bullet::after{
+    display: none;
+}
+.step .bullet::before,
+.step .bullet::after
+{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 120px;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 40px;
+}

@@ -6,11 +6,12 @@ const Login = () => {
    
     return ( 
         <div className={`${styles.mainRow} row`}>
-            <div  className={`${styles.ehniiCol} col`}>
+            <div  className={`${styles.ehniiCol} col-sm`}>
 
             </div>
             <div className={`${styles.hyorCol} col`}>
-                <LoginComp/>
+                {/* <LoginComp/> */}
+                <Resister/>
             </div>
         </div>
      );
