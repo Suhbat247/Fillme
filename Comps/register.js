@@ -2,7 +2,6 @@ import styles from "../styles/Register.module.css"
 
 const Register = () => {
     return ( 
-<<<<<<< HEAD
     <div id={styles.baruunCol} className="container d-flex justify-content-center flex-column">
         <div className="d-flex justify-content-center">
             <h1 className={`${styles.registerGarchig}`}>БҮРТГҮҮЛЭХ </h1>
@@ -15,6 +14,7 @@ const Register = () => {
                         <p>БҮРТГЭЛИЙН МЭДЭЭЛЭЛ</p>
                         <div className="checked"></div>
                     </div>
+
                     <div className={`${styles.step}`}>
                         <div className={`${styles.bullet}`}>
                             <span></span>
@@ -22,8 +22,9 @@ const Register = () => {
                         <p>ХУВИЙН МЭДЭЭЛЭЛ</p>
                         <div className="checked"></div>
                     </div>
+
                     <div className={`${styles.step}`}>
-                        <div className={`${styles.bullet}`}>
+                        <div className={`${styles.bullet} `}>
                             <span></span>
                         </div>
                         <p>ТАНЫ МЭДЭЭЛЭЛ</p>
@@ -31,9 +32,6 @@ const Register = () => {
                     </div>
                 </div>
     </div>
-=======
-        <div>mongol</div>
->>>>>>> fa9390b34ba713ba825d2f5ed0c479c0f7311bf2
      );
 }
  
