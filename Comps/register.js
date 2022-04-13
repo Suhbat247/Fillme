@@ -2,9 +2,7 @@ import styles from "../styles/Register.module.css"
 
 const Register = () => {
     return ( 
-        <div>
-
-        </div>
+        <div>mongol</div>
      );
 }
  

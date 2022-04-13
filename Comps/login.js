@@ -8,7 +8,9 @@ const LoginComp = () => {
         </div>
         <input id={styles.headerinput} type="text" className="form-control" placeholder="Нэвтрэх нэр" aria-label="Recipient's username" aria-describedby="button-addon2"/>
         <input id={styles.headerinput} type="text" className="form-control" placeholder="Нууц үг" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-        <a className="d-flex justify-content-end" href=""><p>Нууц үгээ мартсан?</p></a>
+        <a className={`${styles} d-flex justify-content-end`} href="">
+            <p className={`${styles.forPass}`}>Нууц үгээ мартсан?</p>
+        </a>
         <div className="d-grid gap-2 col-9 mx-auto">
             <button id={styles.loginButtonTop}  className="btn-lg" type="button">Нэвтрэх</button>
             <button id={styles.loginButtonBott} className="btn" type="button">Бүртгүүлэх</button>

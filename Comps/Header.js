@@ -9,7 +9,7 @@ const Login = () => {
       else return "";
   }
     return ( 
-<nav id={styles.navbar} className="navbar navbar-expand-lg navbar-light ">
+<nav id={styles.navbar} className="navbar navbar-expand-lg navbar-light border-bottom py-1">
   <div className="container-fluid px-5 py-2 mx-5 ">
     <a className="navbar-brand fw-bold " href="#">Fillme</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@ const Login = () => {
           <a className={"nav-link" + isActive('/about')} aria-current="page" href="about">Бидний тухай</a>
         </li>
         <li className="nav-item">
-          <a className={"nav-link" + isActive('/survays')}  href="survays">Судалгаанууд</a>
+          <a className={"nav-link" + isActive('/surveys')}  href="surveys">Судалгаанууд</a>
         </li>
         <li className="nav-item">
           <a className={"nav-link" + isActive('gift')} href="gift">Урамшуулал</a>
