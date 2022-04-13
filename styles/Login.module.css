@@ -1,6 +1,7 @@
 .mainRow{
   height: 99vh;
   overflow: hidden;
+<<<<<<< HEAD
 }
 #baruunCol{
     width: 384px;
@@ -28,9 +29,47 @@
     background-color: rgba(0, 255, 255, 0);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
   }
+=======
+}
+>>>>>>> fa9390b34ba713ba825d2f5ed0c479c0f7311bf2
 .ehniiCol{
   background-color: #D8FFFF;
 }
 .hyorCol{
   background-color: #F2FFFF;
+<<<<<<< HEAD
 }
+=======
+}
+#baruunCol{
+    width: 384px;
+}
+.garchig{
+  color: #0E80F1;
+  margin-top: 240px;
+  margin-bottom: 40px;
+}
+#headerinput{
+    margin-top: 28px;
+    width: 340px;
+    height: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px #9ECCFA;
+}
+.forPass{
+  margin: 10px 0px;
+}
+#loginButtonTop{
+  background-color: #0E80F1;
+  border-radius: 50px;
+  border: 1px solid #0E80F1;
+  color: white;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.093);
+  padding: 8px 100px;
+}
+#loginButtonBott{
+    border-radius: 50px;
+    background-color: rgba(0, 255, 255, 0);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+  }
+>>>>>>> fa9390b34ba713ba825d2f5ed0c479c0f7311bf2
