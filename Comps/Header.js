@@ -8,6 +8,7 @@ const Login = () => {
       if(r===router.pathname) return " active"
       else return "";
   }
+
     return ( 
 <nav id={styles.navbar} className="navbar navbar-expand-lg navbar-light border-bottom py-1">
   <div className="container-fluid px-5 py-2 mx-5 ">
@@ -29,10 +30,6 @@ const Login = () => {
         <li className="nav-item">
           <a className={"nav-link" + isActive('login')} href="login">Нэвтрэх</a>
         </li>
-        
-        
-  
-    
       </ul>
     </div>
   </div>
