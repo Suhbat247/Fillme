@@ -6,7 +6,7 @@
     color: #0E80F1;
 }
 .progress{
-    margin-top: 52px;
+    margin-top: 32px;
     display: flex;
     justify-content:center;
     min-width: 520px;
@@ -37,8 +37,15 @@
     position: absolute;
     content: "";
     height: 1px;
-    width: 120px;
+    width: 132px;
     background-color: black;
     margin-top: 5px;
     margin-left: 40px;
+}
+
+.registerInput{
+    width: 280px  !important;
+}
+.formOuter{
+    margin-top: 20px;
 }

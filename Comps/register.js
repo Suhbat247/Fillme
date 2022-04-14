@@ -28,9 +28,28 @@ const Register = () => {
                             <span></span>
                         </div>
                         <p>ТАНЫ МЭДЭЭЛЭЛ</p>
-                        <div className="checked"></div>
+                        <div className="checked"></div>        
+                        </div>
+        </div>
+        <div className={`${styles.formOuter}`}>
+            <form action="#">
+                <div className="page">
+                    <div className="row row-cols-2 ">
+                        <div className="col d-flex justify-content-end">
+                            <div>
+                            <div className="title">dsads</div>
+                            <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="title">csada</div>
+                            <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+                        </div>
                     </div>
                 </div>
+            </form>
+        </div>
+                
     </div>
      );
 }

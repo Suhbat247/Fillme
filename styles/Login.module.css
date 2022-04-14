@@ -1,6 +1,6 @@
 .mainRow{
   height: 99vh;
-  overflow: hidden;
+  overflow: 0;
 }
 #baruunCol{
     width: 384px;
