@@ -1,10 +1,8 @@
+import { useState } from "react";
 import styles from "../styles/Register.module.css" 
 
 const Register = () => {
-    // <div className={`${styles.nextButton} btn `}>БУЦАХ</div>
-    // <div className={`${styles.nextButton} btn `}>ОРУУЛАХ</div>
-
-    
+    const [margin, setMargin] = useState('0')
 
 
     return ( 
@@ -37,7 +35,7 @@ const Register = () => {
         </div>
         <div className={`${styles.formOuter}`}>
             <form action="#">
-                <div className={`${styles.page}`}>
+                <div className={`${styles.page} ${styles.slidepage}`} style={{margin: margin}}>
                     <div className="row row-cols-2 ">
                         <div className="col d-flex justify-content-end">
                             <div>
@@ -67,11 +65,11 @@ const Register = () => {
                         </div>
                     </div>
                 <div className={`${styles.containNext} d-flex justify-content-center`}>
-                    <div className={`${styles.nextButton} btn `}>ОРУУЛАХ</div>
+                    <div className={`${styles.nextButton} btn `} onClick={() => setMargin('-25%')}>ОРУУЛАХ</div>
                 </div>
                 </div>
 
-                <div className={`${styles.page}`}>
+                <div className={`${styles.page} ${styles.slidepage}`}>
                     <div className="row row-cols-2 ">
                         <div className="col d-flex justify-content-end">
                             <div>
@@ -102,11 +100,11 @@ const Register = () => {
                     </div>
                 <div className={`${styles.containNext} d-flex justify-content-center`}>
                     <div className={`${styles.nextButton} btn `}>БУЦАХ</div>
-                    <div className={`${styles.nextButton} btn `}>ОРУУЛАХ</div>
+                    <div className={`${styles.nextButton} ${styles.backButton} btn `}>ОРУУЛАХ</div>
                 </div>
                 </div>
 
-                 <div className={`${styles.page}`}>
+                <div className={`${styles.page} ${styles.slidepage}`}>
                     <div className="row row-cols-2 ">
                         <div className="col d-flex justify-content-end">
                             <div>
@@ -137,7 +135,7 @@ const Register = () => {
                     </div>
                 <div className={`${styles.containNext} d-flex justify-content-center`}>
                     <div className={`${styles.nextButton} btn `}>БУЦАХ</div>
-                    <div className={`${styles.nextButton} btn `}>ОРУУЛАХ</div>
+                    <div className={`${styles.nextButton} ${styles.backButton} btn `}>ОРУУЛАХ</div>
                 </div>
                 </div>
             </form>     
