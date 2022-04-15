@@ -73,34 +73,27 @@ const Register = () => {
                     <div className="row row-cols-2 ">
                         <div className="col d-flex justify-content-end">
                             <div>
-                                <div className={`${styles.title}`}>НЭВТРЭХ НЭР</div>
+                                <div className={`${styles.title}`}>ОВОГ</div>
                                 <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                             </div>
                         </div>
                         <div className="col">
-                            <div className={`${styles.title}`}>И-МЭЙЛ</div>
+                            <div className={`${styles.title}`}>НЭР</div>
                             <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                         </div>
                         <div className="col d-flex justify-content-end">
                             <div>
-                                <div className={`${styles.title}`}>НУУЦ ҮГ</div>
+                                <div className={`${styles.title}`}>УТАСНЫ ДУГААР </div>
                                 <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                             </div>
                         </div>
                         <div className="col">
-                            <div className={`${styles.title}`}>И-МЭЙЛ БАТАЛГААЖУУЛАХ</div>
-                            <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-                        </div>
-                        <div className="col d-flex justify-content-end">
-                            <div>
-                                <div className={`${styles.title}`}>НУУЦ ҮГ БАТАЛГААЖУУЛАХ</div>
-                                <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-                            </div>
+
                         </div>
                     </div>
                 <div className={`${styles.containNext} d-flex justify-content-center`}>
-                    <div className={`${styles.nextButton} btn `}>БУЦАХ</div>
-                    <div className={`${styles.nextButton} ${styles.backButton} btn `}>ОРУУЛАХ</div>
+                    <div className={`${styles.nextButton}   btn`} onClick={() => setMargin('+0%')} >БУЦАХ</div>
+                    <div className={`${styles.nextButton} ${styles.backButton} btn `} onClick={() => setMargin('-50%')} >ОРУУЛАХ</div>
                 </div>
                 </div>
 
@@ -108,22 +101,22 @@ const Register = () => {
                     <div className="row row-cols-2 ">
                         <div className="col d-flex justify-content-end">
                             <div>
-                                <div className={`${styles.title}`}>НЭВТРЭХ НЭР</div>
+                                <div className={`${styles.title}`}>dsadsa </div>
                                 <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                             </div>
                         </div>
                         <div className="col">
-                            <div className={`${styles.title}`}>И-МЭЙЛ</div>
+                            <div className={`${styles.title}`}>dsa</div>
                             <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                         </div>
                         <div className="col d-flex justify-content-end">
                             <div>
-                                <div className={`${styles.title}`}>НУУЦ ҮГ</div>
+                                <div className={`${styles.title}`}> dsa</div>
                                 <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                             </div>
                         </div>
                         <div className="col">
-                            <div className={`${styles.title}`}>И-МЭЙЛ БАТАЛГААЖУУЛАХ</div>
+                            <div className={`${styles.title}`}>dsaХ</div>
                             <input type="text" className={`${styles.registerInput} form-control`} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                         </div>
                         <div className="col d-flex justify-content-end">
@@ -134,7 +127,7 @@ const Register = () => {
                         </div>
                     </div>
                 <div className={`${styles.containNext} d-flex justify-content-center`}>
-                    <div className={`${styles.nextButton} btn `}>БУЦАХ</div>
+                    <div className={`${styles.nextButton} btn `} onClick={() => setMargin('+25%')}>БУЦАХ</div>
                     <div className={`${styles.nextButton} ${styles.backButton} btn `}>ОРУУЛАХ</div>
                 </div>
                 </div>

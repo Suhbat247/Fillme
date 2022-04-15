@@ -10,7 +10,7 @@ const Login = () => {
   }
 
     return ( 
-<nav id={styles.navbar} className="navbar navbar-expand-lg navbar-light border-bottom py-1">
+<nav id={styles.navbar} className="navbar navbar-expand-lg navbar-light border-bottom">
   <div className="container-fluid px-5 py-2 mx-5 ">
     <a className="navbar-brand fw-bold " href="#">Fillme</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
