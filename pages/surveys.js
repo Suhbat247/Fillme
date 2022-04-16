@@ -13,19 +13,7 @@ const Surveys = () => {
                     </div>
                     <p className="p-3">Таны үлдэгдэл оноо: <span>247,000</span></p>
                 </div>
-                <div className={`${styles.mainRow} row `}>
-                    <div className={`${styles.filter} col`}>  
-                        
-                    </div>
-                    <div className={`${styles.Surveys} col`}>
-                        <div className="row row-cols-3 ms-5 px-5">
-                            <Survey/>
-                            <Survey/>
-                            <Survey/>
-                            <Survey/>
-                        </div>
-                    </div>
-                </div>
+           
             </div>
             
         </div>
