@@ -14,6 +14,14 @@
 }
 .survey{
     width: 360px;
-    height: 240px;
-    border-radius: 1px solid black;
+    height: 220px;
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    border-radius: 16px;
+    background-color: white;
+}
+.surveyHeader{
+    height: 48px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.067);
+    background-color: #cffcfc60;
+    border-radius: 16px 16px 0 0;
 }

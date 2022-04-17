@@ -14,6 +14,7 @@ const Surveys = () => {
                     <p className="p-3">Таны үлдэгдэл оноо: <span>247,000</span></p>
                 </div>
                 <div className="container-fluid px-5">
+                    
                     <div className="row">
                         <div className={`${styles.filter} row border-end d-none d-lg-block d-print-block`}>
                         <ul>
@@ -23,8 +24,19 @@ const Surveys = () => {
                             <li>aaaaaaaaaaaaaaaa</li>
                         </ul>
                         </div>
-                        <div className={`col`}>
-
+                        <div className={`col `}>
+                            <div className="container-fluid ">
+                            <div className="container">
+                                <div className="row row-cols-3">
+                                    <Survey/>
+                                    <Survey/>
+                                    <Survey/>
+                                    <Survey/>
+                                    <Survey/>
+                                    <Survey/>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
